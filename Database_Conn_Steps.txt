@@ -1,0 +1,27 @@
+step 1: open sql plus command line
+
+step2: type 'conn' and enter
+
+Enter User Name: system
+password: fusion
+
+step3: Unlock your HR database by using below query
+
+ALTER USER hr ACCOUNT UNLOCK;
+
+then user altered.
+
+step4:Set the password for HR database by using below query.
+
+ALTER USER hr IDENTIFIED BY hr;
+
+then user altered
+step5: Type 'conn'
+User Name: hr
+password: hr
+
+User connected.
+
+Step6: Use below command for get tables of HR database 
+
+SELECT * FROM TAB;
